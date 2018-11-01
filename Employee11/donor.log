@@ -1,0 +1,137 @@
+2018-10-24-main-ERROR-root      :ORA-00947: not enough values
+
+2018-10-24-main-ERROR-root      :exception occured
+com.capgemini.exception.CustomersException: Tehnical problem occured refer log
+	at com.capgemini.dao.CustomerDaoImpl.addCustomerDetails(CustomerDaoImpl.java:76)
+	at com.capgemini.service.CustomerServiceImpl.addCustomerDetails(CustomerServiceImpl.java:23)
+	at com.capgemini.pi.CustomerMain.main(CustomerMain.java:59)
+2018-10-24-main-ERROR-root      :ORA-00947: not enough values
+
+2018-10-24-main-ERROR-root      :exception occured
+com.capgemini.exception.CustomersException: Tehnical problem occured refer log
+	at com.capgemini.dao.CustomerDaoImpl.addCustomerDetails(CustomerDaoImpl.java:76)
+	at com.capgemini.service.CustomerServiceImpl.addCustomerDetails(CustomerServiceImpl.java:23)
+	at com.capgemini.pi.CustomerMain.main(CustomerMain.java:59)
+2018-10-24-main-ERROR-root      :exception occured
+com.capgemini.exception.CustomersException: [
+ Phone Number Should be in 10 digit 
+]
+	at com.capgemini.service.CustomerServiceImpl.validateCustomer(CustomerServiceImpl.java:47)
+	at com.capgemini.pi.CustomerMain.populateCustomerbean(CustomerMain.java:118)
+	at com.capgemini.pi.CustomerMain.main(CustomerMain.java:53)
+2018-10-24-main-INFO -root      :Donor details added successfully:
+2018-10-24-main-INFO -root      :Donor details added successfully:
+2018-10-24-main-INFO -root      :Donor details added successfully:
+2018-10-24-main-ERROR-root      :exception occured
+com.capgemini.exception.CustomersException: [
+ Phone Number Should be in 10 digit 
+]
+	at com.capgemini.service.CustomerServiceImpl.validateCustomer(CustomerServiceImpl.java:47)
+	at com.capgemini.pi.CustomerMain.populateCustomerbean(CustomerMain.java:118)
+	at com.capgemini.pi.CustomerMain.main(CustomerMain.java:53)
+2018-10-24-main-INFO -root      :Donor details added successfully:
+2018-10-24-main-INFO -root      :Donor details added successfully:
+2018-10-24-main-INFO -root      :Donor details added successfully:
+2018-10-24-main-ERROR-root      :ORA-01858: a non-numeric character was found where a numeric was expected
+
+2018-10-24-main-ERROR-root      :exception occured
+com.capgemini.exception.CustomersException: Tehnical problem occured refer log
+	at com.capgemini.dao.CustomerDaoImpl.addCustomerDetails(CustomerDaoImpl.java:77)
+	at com.capgemini.service.CustomerServiceImpl.addCustomerDetails(CustomerServiceImpl.java:23)
+	at com.capgemini.pi.CustomerMain.main(CustomerMain.java:59)
+2018-10-24-main-INFO -root      :Donor details added successfully:
+2018-10-24-main-INFO -root      :Donor details added successfully:
+2018-10-24-main-INFO -root      :Donor details added successfully:
+2018-10-24-main-INFO -root      :Donor details added successfully:
+2018-10-24-main-INFO -root      :Donor details added successfully:
+2018-10-24-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2018-10-24-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2018-10-24-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2018-10-24-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2018-10-24-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2018-10-24-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2018-10-24-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2018-10-24-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2018-10-24-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2018-10-24-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2018-10-24-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2018-10-24-main-ERROR-root      :exception occured
+com.capgemini.exception.PatientsException: [
+ Phone Number Should be in 10 digit 
+]
+	at com.capgemini.service.PatientServiceImpl.validatePatient(PatientServiceImpl.java:48)
+	at com.capgemini.pi.PatientMain.populatePatientbean(PatientMain.java:119)
+	at com.capgemini.pi.PatientMain.main(PatientMain.java:54)
+2018-10-24-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2018-10-24-main-ERROR-root      :exception occured
+com.capgemini.exception.PatientsException: Tehnical problem occured refer log
+	at com.capgemini.dao.PatientDaoImpl.addPatientDetails(PatientDaoImpl.java:75)
+	at com.capgemini.service.PatientServiceImpl.addPatientDetails(PatientServiceImpl.java:24)
+	at com.capgemini.pi.PatientMain.main(PatientMain.java:60)
+2018-10-24-main-INFO -root      :Patient details added successfully:
+2018-10-24-main-INFO -root      :Patient details added successfully:
+2018-10-24-main-INFO -root      :Patient details added successfully:
+2018-10-25-main-INFO -root      :Patient details added successfully:
+2018-10-25-main-INFO -root      :Patient details added successfully:
+2018-10-25-main-INFO -root      :Patient details added successfully:
+2018-11-01-main-ERROR-root      :Insertion failed 
+2018-11-01-main-ERROR-root      :exception occured
+com.capgemini.exception.EmployeeException: Inserting Patient details failed 
+	at com.capgemini.dao.EmployeeDaoImpl.addPatientDetails(EmployeeDaoImpl.java:51)
+	at com.capgemini.service.EmployeeServiceImpl.addPatientDetails(EmployeeServiceImpl.java:21)
+	at com.capgemini.pi.EmployeeMain.main(EmployeeMain.java:61)
+2018-11-01-main-ERROR-root      :exception occured
+com.capgemini.exception.EmployeeException: [
+ IdNumber Should be only digist 
+]
+	at com.capgemini.service.EmployeeServiceImpl.validatePatient(EmployeeServiceImpl.java:41)
+	at com.capgemini.pi.EmployeeMain.populateEmployeebean(EmployeeMain.java:116)
+	at com.capgemini.pi.EmployeeMain.main(EmployeeMain.java:55)
+2018-11-01-main-ERROR-root      :exception occured
+com.capgemini.exception.EmployeeException:  Database connection problem
+	at com.capgemini.util.DBConnection.getConnection(DBConnection.java:63)
+	at com.capgemini.dao.EmployeeDaoImpl.addPatientDetails(EmployeeDaoImpl.java:29)
+	at com.capgemini.service.EmployeeServiceImpl.addPatientDetails(EmployeeServiceImpl.java:21)
+	at com.capgemini.pi.EmployeeMain.main(EmployeeMain.java:61)
+2018-11-01-main-ERROR-root      :exception occured
+com.capgemini.exception.EmployeeException:  Database connection problem
+	at com.capgemini.util.DBConnection.getConnection(DBConnection.java:63)
+	at com.capgemini.dao.EmployeeDaoImpl.addEmployeeDetails(EmployeeDaoImpl.java:29)
+	at com.capgemini.service.EmployeeServiceImpl.addEmployeeDetails(EmployeeServiceImpl.java:21)
+	at com.capgemini.pi.EmployeeMain.main(EmployeeMain.java:66)
+2018-11-01-main-ERROR-root      :exception occured
+com.capgemini.exception.EmployeeException:  Database connection problem
+	at com.capgemini.util.DBConnection.getConnection(DBConnection.java:63)
+	at com.capgemini.dao.EmployeeDaoImpl.addEmployeeDetails(EmployeeDaoImpl.java:29)
+	at com.capgemini.service.EmployeeServiceImpl.addEmployeeDetails(EmployeeServiceImpl.java:21)
+	at com.capgemini.pi.EmployeeMain.main(EmployeeMain.java:66)
+2018-11-01-main-ERROR-root      :exception occured
+com.capgemini.exception.EmployeeException:  Database connection problem
+	at com.capgemini.util.DBConnection.getConnection(DBConnection.java:63)
+	at com.capgemini.dao.EmployeeDaoImpl.addEmployeeDetails(EmployeeDaoImpl.java:29)
+	at com.capgemini.service.EmployeeServiceImpl.addEmployeeDetails(EmployeeServiceImpl.java:21)
+	at com.capgemini.pi.EmployeeMain.main(EmployeeMain.java:66)
+2018-11-01-main-ERROR-root      :exception occured
+com.capgemini.exception.EmployeeException:  Database connection problem
+	at com.capgemini.util.DBConnection.getConnection(DBConnection.java:63)
+	at com.capgemini.dao.EmployeeDaoImpl.addEmployeeDetails(EmployeeDaoImpl.java:30)
+	at com.capgemini.service.EmployeeServiceImpl.addEmployeeDetails(EmployeeServiceImpl.java:21)
+	at com.capgemini.pi.EmployeeMain.main(EmployeeMain.java:66)
+2018-11-01-main-ERROR-root      :exception occured
+com.capgemini.exception.EmployeeException:  Database connection problem
+	at com.capgemini.util.DBConnection.getConnection(DBConnection.java:63)
+	at com.capgemini.dao.EmployeeDaoImpl.addEmployeeDetails(EmployeeDaoImpl.java:30)
+	at com.capgemini.service.EmployeeServiceImpl.addEmployeeDetails(EmployeeServiceImpl.java:21)
+	at com.capgemini.pi.EmployeeMain.main(EmployeeMain.java:66)
